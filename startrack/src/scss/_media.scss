@@ -1,0 +1,185 @@
+@media (max-width: 650px) {
+html{
+	font-size: 15px;
+}
+
+
+	.navbar{
+		// position:relative;
+		// width: 100%;
+		
+		h1{
+			padding-top:0.3rem;
+			font-size: 1.5rem;
+		}
+		.nav-menu{
+		display: none;
+		
+		}
+		.nav-menu.active{
+			// overflow: hidden;
+			z-index: 1000;
+			display: block;
+			display: flex;
+			position: absolute;
+			top: 8vh;
+			right: 0;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			height: 35vh;
+			width: 25vh;
+			background: $bg-color;
+			padding: 0;
+			margin: 0;
+			border-radius: 0 0 0 2px;
+			
+li{
+	color: white;
+	margin: 0;
+}
+				// display: none;
+			
+				a{
+					margin: 0;
+			color: white;
+			padding:0;
+			opacity: 0.7;
+			padding-bottom: 1px;
+			border-bottom: 0;
+			transition:border-bottom-width 0.5s;
+		
+					&:hover{
+			opacity:1;
+			border-bottom:1px solid white;
+
+
+					}
+				}
+		}
+		
+	}
+
+
+	.hamburger {
+// margin: auto;
+		display: block;
+		width:35px;
+		height: 35px;
+		background: #fff;
+	}
+	.hamburger div {
+		// position: absolute;
+
+		margin:7px auto;
+		height: 2.5px;
+		width: 75%;
+		background: $bg-color;
+	}
+	.grid-2 {
+		width: 100%;
+		margin:0 auto;
+
+grid-column-gap: 0;
+grid-row-gap: 1rem;
+padding: 2rem;
+
+
+		display:grid;
+		grid-template-columns: 1fr;
+	
+		justify-items: center;
+	
+
+
+	
+	
+	
+	}
+
+// Contact animation boxes
+.main-lists{
+	margin-top: 2rem;
+
+.contact-lists{
+	width: 70%;
+	margin: 1rem auto;
+	padding: 0.2rem 0.6rem;
+
+}
+.lists{
+
+.contact-item-box{
+	padding: 0.5rem 0.5rem;
+	min-width: 14rem;
+}
+
+}
+}
+
+
+// PRIVATE ROUTE FORM
+.contact-form {
+
+	width: 20rem;
+	height: 25rem;
+
+.group{
+	flex-direction: column;
+	width: 90%;
+
+
+
+	.user-label{
+		
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-bottom: 0.5rem;
+	}
+
+
+		
+
+	}
+	.radio-btns{
+		flex-direction: row;
+
+			}
+
+	
+}
+
+
+}
+
+@media(max-width:420px){
+
+	.navbar{
+		h1{
+		// font-size: 2rem;
+		// 	padding-top:0.6rem;
+
+			padding-top:0.1rem;
+			font-size: 1.1rem;
+		}
+	}
+	.container{
+		margin:0;
+	}
+	.grid-2{
+		padding: 1rem 0;
+		margin: 0;
+
+		.contact-form{
+			padding: 0 0.3rem;
+			width: 15rem;
+		}
+		.main-lists{
+			width: 18rem;
+
+
+		}
+
+}
+}
